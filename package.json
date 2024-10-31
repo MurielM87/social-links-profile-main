@@ -1,0 +1,14 @@
+{
+  "name": "social-links-profile-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social links profile coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:style.css"
+  },
+  "author": "Muriel MARCHAL",
+  "license": "ISC",
+  "dependencies": {
+    "social-links-profile-main": "file:"
+  }
+}

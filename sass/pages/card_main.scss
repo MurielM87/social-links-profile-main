@@ -1,0 +1,23 @@
+.social_network {
+    width: 25vw;
+    background-color: $grey700;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    @media screen and (max-width: map-get($breakpoints, mobile)) {
+        width: 80vw;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+        &:hover {
+            color: $grey900; 
+        }
+    }
+    &:hover {
+        background-color: $green;
+        cursor: pointer;
+    }
+}

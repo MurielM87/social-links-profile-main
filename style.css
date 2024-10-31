@@ -1,0 +1,104 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+body .container {
+  width: 1460px;
+}
+@media screen and (max-width: 375px) {
+  body .container {
+    width: 100%;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header #avatar_user {
+  width: 60px;
+  border-radius: 50%;
+  margin: auto;
+}
+header h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+header #localisation {
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+header #jobb {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 375px) {
+  header #jobb {
+    font-size: 12px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#card {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 12%);
+}
+@media screen and (max-width: 375px) {
+  #card {
+    width: 95%;
+  }
+}
+
+.social_network {
+  width: 25vw;
+  background-color: hsl(0, 0%, 20%);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 375px) {
+  .social_network {
+    width: 80vw;
+  }
+}
+.social_network a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+.social_network a:hover {
+  color: hsl(0, 0%, 8%);
+}
+.social_network:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

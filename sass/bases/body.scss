@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    background-color: $grey900;
+    color: $white;
+
+    .container {
+        width: 1460px;
+        @media screen and (max-width: map-get($breakpoints, mobile)) {
+            width: 100%;
+        }
+    }
+}
